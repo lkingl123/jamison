@@ -8,8 +8,9 @@ import FAQ from "./components/FAQ";
 import CookieBanner from "./components/CookieBanner";
 
 export const metadata = {
-  title: 'Jamison - AI Chatbot Solutions',
-  description: 'Build, train, and deploy AI chatbots with ease.',
+  title: 'Jamison – AI-Powered Healthcare Intake Assistant',
+  description:
+    'Jamison helps healthcare professionals process face sheets, validate insurance, and streamline patient intake with AI-powered document review and smart summaries.',
   icons: {
     icon: '/talk-edge.png', 
   },

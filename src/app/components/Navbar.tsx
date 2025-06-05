@@ -75,14 +75,14 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {isMenuOpen && (
         <div className="absolute top-16 right-0 bg-white shadow-lg w-full lg:hidden py-8 px-6 rounded-md z-10 transition-all ease-in-out duration-300">
-          <Link
+          {/* <Link
             href="/"
-            className="block text-lg text-black py-3 px-4 hover:text-customIndigo hover:bg-gray-100 rounded-md"
+            className="block text-lg text-black bg-gray-100 py-3 px-4 hover:text-customBlue hover:bg-gray-100 rounded-md"
             onClick={toggleMenu} // Close the menu after clicking
           >
             How it works
-          </Link>
-          <Link
+          </Link> */}
+          {/* <Link
             href="/pricing"
             className="block text-lg text-black py-3 px-4 hover:text-customIndigo hover:bg-gray-100 rounded-md"
             onClick={toggleMenu} // Close the menu after clicking
@@ -95,21 +95,21 @@ const Navbar = () => {
             onClick={toggleMenu} // Close the menu after clicking
           >
             API
-          </Link>
+          </Link> */}
           <div className="mt-6 space-y-4">
             <Link
               href="/login"
-              className="block text-lg text-black py-2 px-4 hover:bg-gray-200 rounded-md"
+              className="block text-lg text-black bg-gray-300 py-2 px-4 hover:bg-gray-500 rounded-md"
               onClick={toggleMenu} // Close the menu after clicking
             >
               Sign in
             </Link>
             <Link
               href="/create-chatbot"
-              className="block text-lg text-white bg-black py-3 px-4 rounded-md hover:bg-orange-600"
+              className="block text-lg text-white bg-black py-3 px-4 rounded-md hover:bg-customBlue transition"
               onClick={toggleMenu} // Close the menu after clicking
             >
-              Create a Chatbot
+              Sign Up
             </Link>
           </div>
         </div>
