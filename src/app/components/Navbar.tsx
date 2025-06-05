@@ -21,7 +21,7 @@ const Navbar = () => {
             <span className="text-white font-bold text-lg">T</span>
           </div>
           <Link href="/" className="text-2xl font-bold text-black">
-            TalkEdge
+            Jamison
           </Link>
         </div>
         {/* Menu Links */}

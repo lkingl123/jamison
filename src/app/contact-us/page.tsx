@@ -13,7 +13,7 @@ const ContactUs = () => {
             {/* Support Section */}
             <div className="bg-gradient-to-r from-orange-400 to-orange-600 p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300 ease-in-out">
               <h3 className="text-2xl font-semibold text-white mb-2">SUPPORT</h3>
-              <p className="text-lg font-bold text-white mb-4">support@talkedge.com</p>
+              <p className="text-lg font-bold text-white mb-4">support@Jamison.com</p>
               <p className="text-gray-200">
                 Reach us here for any issues or requests. We're here to help.
               </p>
@@ -22,7 +22,7 @@ const ContactUs = () => {
             {/* Info Section */}
             <div className="bg-gradient-to-r from-blue-400 to-blue-600 p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300 ease-in-out">
               <h3 className="text-2xl font-semibold text-white mb-2">INFO</h3>
-              <p className="text-lg font-bold text-white mb-4">hello@talkedge.com</p>
+              <p className="text-lg font-bold text-white mb-4">hello@Jamison.com</p>
               <p className="text-gray-200">
                 Drop us a line if you have suggestions or general questions.
               </p>

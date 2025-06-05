@@ -7,34 +7,34 @@ const FAQ = () => {
 
   const faqs = [
     {
-      question: "What is TalkEdge?",
+      question: "What is Jamison?",
       answer:
-        "TalkEdge is an AI-powered chatbot platform that allows businesses to integrate conversational AI into their websites, improving user engagement and support.",
+        "Jamison is an AI-powered chatbot platform that allows businesses to integrate conversational AI into their websites, improving user engagement and support.",
     },
     {
-      question: "How can TalkEdge help my business?",
+      question: "How can Jamison help my business?",
       answer:
-        "TalkEdge helps businesses automate customer interactions, provide instant support, and enhance user experience on websites with customizable AI chatbots. This helps save time and increase customer satisfaction.",
+        "Jamison helps businesses automate customer interactions, provide instant support, and enhance user experience on websites with customizable AI chatbots. This helps save time and increase customer satisfaction.",
     },
     {
-      question: "Can TalkEdge be customized for different industries?",
+      question: "Can Jamison be customized for different industries?",
       answer:
-        "Yes! TalkEdge can be tailored to meet the specific needs of various industries, from e-commerce to service-based businesses, providing personalized and relevant chatbot interactions.",
+        "Yes! Jamison can be tailored to meet the specific needs of various industries, from e-commerce to service-based businesses, providing personalized and relevant chatbot interactions.",
     },
     {
-      question: "How do I set up TalkEdge on my website?",
+      question: "How do I set up Jamison on my website?",
       answer:
-        "Setting up TalkEdge on your website is easy. Simply integrate the provided code snippet into your site’s codebase, and you’re ready to go. Our team can guide you through the setup process.",
+        "Setting up Jamison on your website is easy. Simply integrate the provided code snippet into your site’s codebase, and you’re ready to go. Our team can guide you through the setup process.",
     },
     {
-      question: "Does TalkEdge work on mobile devices?",
+      question: "Does Jamison work on mobile devices?",
       answer:
-        "Yes, TalkEdge chatbots are fully responsive and work seamlessly across all devices, including desktops, tablets, and smartphones.",
+        "Yes, Jamison chatbots are fully responsive and work seamlessly across all devices, including desktops, tablets, and smartphones.",
     },
     {
       question: "Can I track chatbot performance and analytics?",
       answer:
-        "Absolutely! TalkEdge provides detailed analytics and insights, including user interactions, response times, and overall performance, so you can continuously optimize your chatbot’s efficiency.",
+        "Absolutely! Jamison provides detailed analytics and insights, including user interactions, response times, and overall performance, so you can continuously optimize your chatbot’s efficiency.",
     },
   ];
 
@@ -47,7 +47,7 @@ const FAQ = () => {
       <div className="container mx-auto px-6 max-w-4xl">
         <h2 className="text-3xl font-bold text-center mb-4">Frequently Asked Questions</h2>
         <p className="text-center text-gray-600 mb-8">
-          Learn more about how TalkEdge can enhance your website with AI-powered chatbots.
+          Learn more about how Jamison can enhance your website with AI-powered chatbots.
         </p>
         <div className="space-y-4">
           {faqs.map((faq, index) => (

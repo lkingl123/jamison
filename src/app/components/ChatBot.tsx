@@ -9,7 +9,7 @@ const ChatBot = () => {
       {
         role: "bot",
         content:
-          "Hi, welcome to TalkEdge! How can I help?",
+          "Hi, welcome to Jamison! How can I help?",
       },
     ]
   );

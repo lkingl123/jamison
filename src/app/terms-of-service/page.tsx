@@ -8,16 +8,16 @@ const TermsOfService = () => {
           <h1 className="text-3xl font-bold text-center mb-8">Terms of Service</h1>
 
           <p className="mb-6">
-            These Terms govern the use of TalkEdge, and any other related Agreement or legal relationship with the Owner in a legally binding way. Capitalized words are defined in the relevant dedicated section of this document.
+            These Terms govern the use of Jamison, and any other related Agreement or legal relationship with the Owner in a legally binding way. Capitalized words are defined in the relevant dedicated section of this document.
           </p>
 
           <p className="mb-6">
-            Please read this document carefully. By using TalkEdge, Users confirm their agreement to these terms. If you do not agree to these terms, please do not use the service.
+            Please read this document carefully. By using Jamison, Users confirm their agreement to these terms. If you do not agree to these terms, please do not use the service.
           </p>
 
           <h2 className="text-2xl font-semibold mt-8 mb-4">Important Information</h2>
           <p className="mb-6">
-            Users acknowledge that TalkEdge may be provided via third parties (e.g., the Apple App Store) and those parties may enforce these terms as third-party beneficiaries.
+            Users acknowledge that Jamison may be provided via third parties (e.g., the Apple App Store) and those parties may enforce these terms as third-party beneficiaries.
           </p>
 
           <p className="mb-6">
@@ -29,7 +29,7 @@ const TermsOfService = () => {
             Users are responsible for ensuring they meet the following requirements:
           </p>
           <ul className="list-disc pl-8 mb-6">
-            <li>Users must be over 14 years old. Minors may only use TalkEdge under adult supervision.</li>
+            <li>Users must be over 14 years old. Minors may only use Jamison under adult supervision.</li>
             <li>Users must not be located in a country under U.S. embargo or listed as "terrorist-supporting" by the U.S. Government.</li>
             <li>Users must not be on any restricted U.S. Government list.</li>
           </ul>
@@ -46,12 +46,12 @@ const TermsOfService = () => {
 
           <h2 className="text-2xl font-semibold mt-8 mb-4">Content Ownership</h2>
           <p className="mb-6">
-            All content available on TalkEdge is owned by the Owner or its licensors. Users may not use such content beyond the intended scope of the Service. Users may be granted permission to share or download specific content for personal use.
+            All content available on Jamison is owned by the Owner or its licensors. Users may not use such content beyond the intended scope of the Service. Users may be granted permission to share or download specific content for personal use.
           </p>
 
           <h2 className="text-2xl font-semibold mt-8 mb-4">Liability and Indemnification</h2>
           <p className="mb-6">
-            Users agree to indemnify the Owner against any claims arising from their use of TalkEdge or violations of the Terms. The Owner’s liability is limited, and Users agree to hold the Owner harmless from any damages resulting from misuse.
+            Users agree to indemnify the Owner against any claims arising from their use of Jamison or violations of the Terms. The Owner’s liability is limited, and Users agree to hold the Owner harmless from any damages resulting from misuse.
           </p>
 
           <h2 className="text-2xl font-semibold mt-8 mb-4">Refund and Cancellation Policy</h2>
@@ -72,7 +72,7 @@ const TermsOfService = () => {
           <p className="mb-6">
             For any questions or concerns regarding these Terms, please contact us at:
             <br />
-            <strong>Owner contact email: hello@talkedge.com</strong>
+            <strong>Owner contact email: hello@Jamison.com</strong>
           </p>
         </div>
       </main>

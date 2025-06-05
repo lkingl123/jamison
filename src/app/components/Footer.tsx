@@ -6,7 +6,7 @@ const Footer = () => (
       <div className="flex flex-col lg:flex-row justify-between items-center">
         {/* Copyright Section */}
         <p className="text-center lg:text-left mb-4 lg:mb-0 text-sm">
-          &copy; {new Date().getFullYear()} TalkEdge. All rights reserved.
+          &copy; {new Date().getFullYear()} Jamison. All rights reserved.
         </p>
 
         {/* Footer Links */}

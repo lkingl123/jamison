@@ -19,7 +19,7 @@ const Hero = () => {
     { text: "Hi! How can I help you?", type: "ai" },
     { text: "What can you do?", type: "user" },
     {
-      text: "I was trained with the content available on this website so I can answer any questions or provide you information about TalkEdge.",
+      text: "I was trained with the content available on this website so I can answer any questions or provide you information about Jamison.",
       type: "ai",
     },
   ];

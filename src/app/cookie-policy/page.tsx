@@ -12,7 +12,7 @@ const CookiePolicy = () => {
           <h1 className="text-3xl font-bold text-center mb-8">Cookie Policy</h1>
 
           <p className="mb-6">
-            TalkEdge uses cookies to improve your experience while using our website and services. This Cookie Policy explains how we use cookies, the types of cookies we use, and how you can manage them.
+            Jamison uses cookies to improve your experience while using our website and services. This Cookie Policy explains how we use cookies, the types of cookies we use, and how you can manage them.
           </p>
 
           <h2 className="text-2xl font-semibold mt-8 mb-4">What are Cookies?</h2>
@@ -63,7 +63,7 @@ const CookiePolicy = () => {
           <p className="mb-6">
             If you have any questions about our Cookie Policy, please contact us at:
             <br />
-            <strong>Email: hello@talkedge.com</strong>
+            <strong>Email: hello@Jamison.com</strong>
           </p>
         </div>
       </main>

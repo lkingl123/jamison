@@ -7,7 +7,7 @@ import ChatBot from "./components/ChatBot";
 import FAQ from "./components/FAQ";
 
 export const metadata = {
-  title: 'TalkEdge - AI Chatbot Solutions',
+  title: 'Jamison - AI Chatbot Solutions',
   description: 'Build, train, and deploy AI chatbots with ease.',
   icons: {
     icon: '/talk-edge.png', 

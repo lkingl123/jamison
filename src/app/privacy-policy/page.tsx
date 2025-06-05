@@ -8,7 +8,7 @@ const PrivacyPolicy = () => {
           <h1 className="text-3xl font-bold text-center mb-8">Privacy Policy</h1>
 
           <p className="mb-6">
-            At TalkEdge, we value your privacy and are committed to protecting your personal data. This Privacy Policy outlines how we collect, use, and safeguard your information when you use our services. Please read this policy carefully before using TalkEdge.
+            At Jamison, we value your privacy and are committed to protecting your personal data. This Privacy Policy outlines how we collect, use, and safeguard your information when you use our services. Please read this policy carefully before using Jamison.
           </p>
 
           <h2 className="text-2xl font-semibold mt-8 mb-4">Information We Collect</h2>
@@ -20,10 +20,10 @@ const PrivacyPolicy = () => {
               <strong>Personal Identification Information:</strong> Name, email address, phone number, etc., that you provide when creating an account or interacting with our platform.
             </li>
             <li>
-              <strong>Usage Data:</strong> Data about how you use TalkEdge, including your interaction with our platform, browsing behavior, and other usage statistics.
+              <strong>Usage Data:</strong> Data about how you use Jamison, including your interaction with our platform, browsing behavior, and other usage statistics.
             </li>
             <li>
-              <strong>Device Information:</strong> Information about the device you use to access TalkEdge, including the type of device, operating system, and IP address.
+              <strong>Device Information:</strong> Information about the device you use to access Jamison, including the type of device, operating system, and IP address.
             </li>
           </ul>
 
@@ -33,11 +33,11 @@ const PrivacyPolicy = () => {
           </p>
           <ul className="list-disc pl-8 mb-6">
             <li>Provide, maintain, and improve our services.</li>
-            <li>Personalize your experience on TalkEdge.</li>
+            <li>Personalize your experience on Jamison.</li>
             <li>Respond to customer service requests and provide support.</li>
             <li>Analyze usage trends to optimize our platform.</li>
             <li>
-              Send you notifications about updates, promotions, or other information related to TalkEdge (you can opt-out of marketing communications at any time).
+              Send you notifications about updates, promotions, or other information related to Jamison (you can opt-out of marketing communications at any time).
             </li>
           </ul>
 
@@ -47,13 +47,13 @@ const PrivacyPolicy = () => {
           </p>
           <ul className="list-disc pl-8 mb-6">
             <li>
-              <strong>With service providers:</strong> We may share information with trusted third-party service providers who assist us in operating TalkEdge and providing services.
+              <strong>With service providers:</strong> We may share information with trusted third-party service providers who assist us in operating Jamison and providing services.
             </li>
             <li>
               <strong>Legal Requirements:</strong> We may disclose information to comply with legal obligations, protect our rights, or defend against legal claims.
             </li>
             <li>
-              <strong>Business Transfers:</strong> If TalkEdge is involved in a merger, acquisition, or sale, your data may be transferred to the new owner as part of the transaction.
+              <strong>Business Transfers:</strong> If Jamison is involved in a merger, acquisition, or sale, your data may be transferred to the new owner as part of the transaction.
             </li>
           </ul>
 
@@ -64,7 +64,7 @@ const PrivacyPolicy = () => {
 
           <h2 className="text-2xl font-semibold mt-8 mb-4">Cookies and Tracking Technologies</h2>
           <p className="mb-6">
-            TalkEdge uses cookies and similar tracking technologies to enhance your experience and collect information about your usage of our platform. You can control the use of cookies through your browser settings, but disabling cookies may limit your ability to use some features of TalkEdge.
+            Jamison uses cookies and similar tracking technologies to enhance your experience and collect information about your usage of our platform. You can control the use of cookies through your browser settings, but disabling cookies may limit your ability to use some features of Jamison.
           </p>
 
           <h2 className="text-2xl font-semibold mt-8 mb-4">Your Data Rights</h2>
@@ -80,7 +80,7 @@ const PrivacyPolicy = () => {
           </ul>
           <p>
             To exercise these rights, please contact us at{" "}
-            <strong>hello@talkedge.com</strong>.
+            <strong>hello@Jamison.com</strong>.
           </p>
 
           <h2 className="text-2xl font-semibold mt-8 mb-4">Data Retention</h2>
@@ -90,7 +90,7 @@ const PrivacyPolicy = () => {
 
           <h2 className="text-2xl font-semibold mt-8 mb-4">Children's Privacy</h2>
           <p className="mb-6">
-            TalkEdge does not knowingly collect personal information from children under the age of 13. If we learn that we have collected personal information from a child under 13, we will take steps to delete the information as soon as possible.
+            Jamison does not knowingly collect personal information from children under the age of 13. If we learn that we have collected personal information from a child under 13, we will take steps to delete the information as soon as possible.
           </p>
 
           <h2 className="text-2xl font-semibold mt-8 mb-4">Changes to This Privacy Policy</h2>
@@ -102,7 +102,7 @@ const PrivacyPolicy = () => {
           <p className="mb-6">
             If you have any questions about this Privacy Policy or our data practices, please contact us at:
             <br />
-            <strong>Owner contact email: hello@talkedge.com</strong>
+            <strong>Owner contact email: hello@Jamison.com</strong>
           </p>
         </div>
       </main>
