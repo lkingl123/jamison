@@ -11,8 +11,8 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        customOrange: '#FF5500',
-        customBlue: '#0057E4',
+        customIndigo: '#14B8A6',
+        customBlue: '#14B8A6',
       },
     },
   },

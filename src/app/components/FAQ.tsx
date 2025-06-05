@@ -9,37 +9,37 @@ const FAQ = () => {
     {
       question: "What is Jamison?",
       answer:
-        "Jamison is an AI-powered chatbot platform that allows businesses to integrate conversational AI into their websites, improving user engagement and support.",
+        "Jamison is an AI-powered medical intake assistant that helps healthcare staff process face sheet PDFs, extract critical data, and ensure insurance and billing readiness.",
     },
     {
-      question: "How can Jamison help my business?",
+      question: "How does Jamison work?",
       answer:
-        "Jamison helps businesses automate customer interactions, provide instant support, and enhance user experience on websites with customizable AI chatbots. This helps save time and increase customer satisfaction.",
+        "Staff upload hospital face sheets to the Jamison platform. The system scans and extracts key fields like patient info, insurance numbers, and diagnosis codes. It then identifies missing or invalid information and helps resolve them through guided Q&A.",
     },
     {
-      question: "Can Jamison be customized for different industries?",
+      question: "Who is Jamison for?",
       answer:
-        "Yes! Jamison can be tailored to meet the specific needs of various industries, from e-commerce to service-based businesses, providing personalized and relevant chatbot interactions.",
+        "Jamison is designed for medical intake coordinators, billing staff, and case workers who manage hospital or clinic documentation and insurance processing.",
     },
     {
-      question: "How do I set up Jamison on my website?",
+      question: "What problems does Jamison solve?",
       answer:
-        "Setting up Jamison on your website is easy. Simply integrate the provided code snippet into your site’s codebase, and you’re ready to go. Our team can guide you through the setup process.",
+        "Jamison reduces human errors in manual data entry, helps catch missing fields early, speeds up insurance processing, and improves compliance with funding workflows.",
     },
     {
-      question: "Does Jamison work on mobile devices?",
+      question: "Is Jamison HIPAA-compliant?",
       answer:
-        "Yes, Jamison chatbots are fully responsive and work seamlessly across all devices, including desktops, tablets, and smartphones.",
+        "Yes, Jamison is designed with HIPAA best practices in mind. Data is processed securely and is only stored after user approval, with encryption and access controls in place.",
     },
     {
-      question: "Can I track chatbot performance and analytics?",
+      question: "Do I need training to use Jamison?",
       answer:
-        "Absolutely! Jamison provides detailed analytics and insights, including user interactions, response times, and overall performance, so you can continuously optimize your chatbot’s efficiency.",
+        "No formal training is needed. Jamison is built with a simple, guided interface and includes a built-in AI assistant to help users through each intake record step-by-step.",
     },
   ];
 
   const toggleFAQ = (index: number) => {
-    setOpenIndex(openIndex === index ? null : index); // Toggle open/close
+    setOpenIndex(openIndex === index ? null : index);
   };
 
   return (
@@ -47,7 +47,7 @@ const FAQ = () => {
       <div className="container mx-auto px-6 max-w-4xl">
         <h2 className="text-3xl font-bold text-center mb-4">Frequently Asked Questions</h2>
         <p className="text-center text-gray-600 mb-8">
-          Learn more about how Jamison can enhance your website with AI-powered chatbots.
+          Everything you need to know about using Jamison to process face sheets and assist with intake.
         </p>
         <div className="space-y-4">
           {faqs.map((faq, index) => (
@@ -55,21 +55,13 @@ const FAQ = () => {
               key={index}
               className="border border-gray-300 rounded-lg overflow-hidden shadow-md"
             >
-              {/* Question */}
               <button
                 onClick={() => toggleFAQ(index)}
                 className="flex justify-between items-center w-full p-4 bg-white text-left text-lg font-medium hover:bg-gray-50 transition duration-300"
               >
                 <span>{faq.question}</span>
-                <span>
-                  {openIndex === index ? (
-                    <span>&times;</span> // Close icon
-                  ) : (
-                    <span>+</span> // Open icon
-                  )}
-                </span>
+                <span>{openIndex === index ? <span>&times;</span> : <span>+</span>}</span>
               </button>
-              {/* Answer */}
               <div
                 className={`transition-all duration-300 ease-in-out ${
                   openIndex === index ? "max-h-40 p-4" : "max-h-0"

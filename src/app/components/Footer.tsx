@@ -11,16 +11,16 @@ const Footer = () => (
 
         {/* Footer Links */}
         <div className="flex flex-wrap justify-center lg:justify-start gap-6 text-sm">
-          <Link href="/terms-of-service" className="hover:text-customOrange transition duration-300">
+          <Link href="/terms-of-service" className="hover:text-customIndigo transition duration-300">
             Terms of Service
           </Link>
-          <Link href="/privacy-policy" className="hover:text-customOrange transition duration-300">
+          <Link href="/privacy-policy" className="hover:text-customIndigo transition duration-300">
             Privacy Policy
           </Link>
-          <Link href="/cookie-policy" className="hover:text-customOrange transition duration-300">
+          <Link href="/cookie-policy" className="hover:text-customIndigo transition duration-300">
             Cookie Policy
           </Link>
-          <Link href="/contact-us" className="hover:text-customOrange transition duration-300">
+          <Link href="/contact-us" className="hover:text-customIndigo transition duration-300">
             Contact Us
           </Link>
         </div>

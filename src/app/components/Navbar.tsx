@@ -17,8 +17,8 @@ const Navbar = () => {
       <div className="flex items-center space-x-6">
         {/* Logo Icon */}
         <div className="flex items-center">
-          <div className="bg-customOrange w-8 h-8 flex items-center justify-center rounded-full mr-2">
-            <span className="text-white font-bold text-lg">T</span>
+          <div className="bg-customIndigo w-8 h-8 flex items-center justify-center rounded-full mr-2">
+            <span className="text-white font-bold text-lg">J</span>
           </div>
           <Link href="/" className="text-2xl font-bold text-black">
             Jamison
@@ -28,11 +28,11 @@ const Navbar = () => {
         <div className="hidden lg:flex space-x-8 text-black">
           <Link
             href="/"
-            className="px-4 py-2 font-semibold text-customOrange hover:bg-gray-100 rounded-md"
+            className="px-4 py-2 font-semibold text-customIndigo hover:bg-gray-100 rounded-md"
           >
             How it works
           </Link>
-          <Link
+          {/* <Link
             href="/pricing"
             className="px-4 py-2 font-semibold hover:text-gray-900 hover:bg-gray-100 rounded-md"
           >
@@ -43,7 +43,7 @@ const Navbar = () => {
             className="px-4 py-2 font-semibold hover:text-gray-900 hover:bg-gray-100 rounded-md"
           >
             API
-          </Link>
+          </Link> */}
         </div>
       </div>
 
@@ -65,10 +65,10 @@ const Navbar = () => {
           Sign in
         </Link>
         <Link
-          href="/create-chatbot"
-          className="bg-black text-white text-lg font-medium px-6 py-3 rounded-md hover:bg-orange-600 transition"
+          href="/signup"
+          className="bg-black text-white text-lg font-medium px-6 py-3 rounded-md hover:bg-customBlue transition"
         >
-          Create a Chatbot
+          Sign Up
         </Link>
       </div>
 
@@ -77,21 +77,21 @@ const Navbar = () => {
         <div className="absolute top-16 right-0 bg-white shadow-lg w-full lg:hidden py-8 px-6 rounded-md z-10 transition-all ease-in-out duration-300">
           <Link
             href="/"
-            className="block text-lg text-black py-3 px-4 hover:text-customOrange hover:bg-gray-100 rounded-md"
+            className="block text-lg text-black py-3 px-4 hover:text-customIndigo hover:bg-gray-100 rounded-md"
             onClick={toggleMenu} // Close the menu after clicking
           >
             How it works
           </Link>
           <Link
             href="/pricing"
-            className="block text-lg text-black py-3 px-4 hover:text-customOrange hover:bg-gray-100 rounded-md"
+            className="block text-lg text-black py-3 px-4 hover:text-customIndigo hover:bg-gray-100 rounded-md"
             onClick={toggleMenu} // Close the menu after clicking
           >
             Pricing
           </Link>
           <Link
             href="/api"
-            className="block text-lg text-black py-3 px-4 hover:text-customOrange hover:bg-gray-100 rounded-md"
+            className="block text-lg text-black py-3 px-4 hover:text-customIndigo hover:bg-gray-100 rounded-md"
             onClick={toggleMenu} // Close the menu after clicking
           >
             API

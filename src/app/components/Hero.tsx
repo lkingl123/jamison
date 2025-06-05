@@ -16,10 +16,10 @@ const Hero = () => {
   const [currentIndex, setCurrentIndex] = useState(0); // Index of the current message being processed
 
   const chatMessages: Message[] = [
-    { text: "Hi! How can I help you?", type: "ai" },
+    { text: "How can I help you?", type: "ai" },
     { text: "What can you do?", type: "user" },
     {
-      text: "I was trained with the content available on this website so I can answer any questions or provide you information about Jamison.",
+      text: "I'm trained to assist with healthcare data tasks like validating Medicaid numbers, checking billing records, and guiding you through patient intake.",
       type: "ai",
     },
   ];
@@ -60,27 +60,25 @@ const Hero = () => {
       {/* Left Content */}
       <div
         className="text-center lg:text-left flex-1 space-y-6 mx-auto lg:ml-48"
-        style={{ maxWidth: "480px" }}
+        style={{ maxWidth: "580px" }}
       >
         <h1 className="text-[40px] md:text-[60px] lg:text-[90px] font-bold leading-[1.1] text-black tracking-tight">
           Your own <br />
-          <span className="text-customOrange">ChatGPT</span> <br />
-          chatbot
+          <span className="text-customIndigo">AI Assistant</span> <br />
+          for Healthcare
         </h1>
         <p className="text-lg md:text-[22px] text-gray-500 leading-relaxed tracking-tight">
-          Train your chatbots with your data from any file or website. Chat to
-          ask questions and find information, or embed it as a widget on your
-          website to assist your users.
+           Upload records, validate insurance info, and simplify patient intake with Jamison—an AI assistant built for modern medical teams.
         </p>
         <div className="flex flex-col md:flex-row justify-center lg:justify-start gap-4">
           <a
-            href="/create-chatbot"
-            className="bg-customOrange text-white text-lg font-medium px-6 py-3 rounded-md hover:bg-black transition"
-          >
-            Create a Chatbot
-          </a>
+          href="/signup"
+          className="bg-black text-white text-lg font-medium px-6 py-3 rounded-md hover:bg-customBlue transition"
+        >
+          Sign Up Here
+        </a>
           <a
-            href="/how-it-works"
+            href="#how-it-works"
             className="bg-gray-200 text-black px-6 py-3 rounded-md hover:bg-gray-300 text-lg font-medium"
           >
             See how it works
@@ -140,7 +138,7 @@ const Hero = () => {
                   rx="525"
                   ry="160"
                   style={{
-                    stroke: "#0057E4",
+                    stroke: "#14B8A6",
                     fill: "none",
                     strokeWidth: 3,
                     transform: `rotate(${angle}deg)`,
@@ -160,7 +158,7 @@ const Hero = () => {
                   rx="490"
                   ry="170"
                   style={{
-                    stroke: "#0057E4",
+                    stroke: "#14B8A6",
                     fill: "none",
                     strokeWidth: 4,
                     transform: `rotate(${angle}deg)`,
@@ -175,10 +173,10 @@ const Hero = () => {
         {/* AI Chat Widget */}
         <div className="bg-white p-6 shadow-lg rounded-lg relative z-20 w-[340px] md:w-[340px] mx-auto">
           <div className="flex items-center mb-4">
-            <div className="bg-blue-500 w-10 h-10 rounded-full flex items-center justify-center text-white font-bold mr-2">
+            <div className="bg-customBlue w-10 h-10 rounded-full flex items-center justify-center text-white font-bold mr-2">
               <span>AI</span>
             </div>
-            <h3 className="text-blue-600 font-bold">AI Assistant</h3>
+            <h3 className="font-bold">AI Assistant</h3>
           </div>
           <hr className="border-gray-300 my-2" />
           <div className="h-[280px] overflow-y-auto space-y-1">
@@ -194,7 +192,7 @@ const Hero = () => {
                   className={`px-4 py-2 rounded-lg ${
                     message.type === "ai"
                       ? "bg-gray-200 text-black"
-                      : "bg-customOrange text-white"
+                      : "bg-customIndigo text-white"
                   }`}
                   style={{
                     display: "inline-block",
@@ -221,7 +219,7 @@ const Hero = () => {
                   className={`px-4 py-2 rounded-lg ${
                     chatMessages[currentIndex]?.type === "ai"
                       ? "bg-gray-100 text-black"
-                      : "bg-customOrange text-white"
+                      : "bg-customIndigo text-white"
                   }`}
                   style={{
                     display: "inline-block",
@@ -256,11 +254,11 @@ const Hero = () => {
           <div className="flex items-center mt-4 border rounded-md px-4 py-2">
             <input
               type="text"
-              placeholder="Ask me anything..."
+              placeholder="Live Demo..."
               className="flex-grow focus:outline-none"
             />
             <button>
-              <FaPaperPlane className="h-6 w-6 text-blue-500" />
+              <FaPaperPlane className="h-6 w-6" />
             </button>
           </div>
         </div>

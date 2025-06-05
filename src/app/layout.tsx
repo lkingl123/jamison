@@ -5,6 +5,7 @@ import SpinnerWrapper from "./components/SpinnerWrapper";
 import Footer from "./components/Footer";
 import ChatBot from "./components/ChatBot";
 import FAQ from "./components/FAQ";
+import CookieBanner from "./components/CookieBanner";
 
 export const metadata = {
   title: 'Jamison - AI Chatbot Solutions',
@@ -35,6 +36,7 @@ export default function RootLayout({
           <ChatBot />
         </div>
 
+      <CookieBanner />
         <Footer />
       </body>
     </html>
