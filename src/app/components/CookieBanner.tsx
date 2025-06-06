@@ -6,12 +6,12 @@ const CookieBanner = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
-    const consent = localStorage.getItem("jamison_cookie_consent");
+    const consent = localStorage.getItem("Clairo_cookie_consent");
     if (!consent) setIsVisible(true);
   }, []);
 
   const handleConsent = (accepted: boolean) => {
-    localStorage.setItem("jamison_cookie_consent", accepted ? "accepted" : "declined");
+    localStorage.setItem("Clairo_cookie_consent", accepted ? "accepted" : "declined");
     setIsVisible(false);
   };
 
@@ -38,7 +38,7 @@ const CookieBanner = () => {
           </button>
           <button
             onClick={() => handleConsent(true)}
-            className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
+            className="px-4 py-2 bg-customBlue text-white rounded hover:bg-blue-700 transition"
           >
             Accept
           </button>

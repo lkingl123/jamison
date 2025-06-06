@@ -8,7 +8,7 @@ const CookiePolicy = () => {
           <h1 className="text-3xl font-bold text-center mb-8">Cookie Policy</h1>
 
           <p className="mb-6">
-            Jamison uses cookies to improve the functionality, performance, and security of our platform. This Cookie Policy outlines the types of cookies we use and how you can manage your preferences.
+            Clairo uses cookies to improve the functionality, performance, and security of our platform. This Cookie Policy outlines the types of cookies we use and how you can manage your preferences.
           </p>
 
           <h2 className="text-2xl font-semibold mt-8 mb-4">What Are Cookies?</h2>
@@ -31,7 +31,7 @@ const CookiePolicy = () => {
 
           <h2 className="text-2xl font-semibold mt-8 mb-4">How We Use Cookies</h2>
           <p className="mb-6">
-            Jamison uses cookies to:
+            Clairo uses cookies to:
           </p>
           <ul className="list-disc pl-8 mb-6">
             <li>Ensure users remain securely logged in.</li>
@@ -42,7 +42,7 @@ const CookiePolicy = () => {
 
           <h2 className="text-2xl font-semibold mt-8 mb-4">Managing Cookies</h2>
           <p className="mb-6">
-            You may choose to disable cookies via your browser settings. However, this may limit your access to secure or personalized features in Jamison.
+            You may choose to disable cookies via your browser settings. However, this may limit your access to secure or personalized features in Clairo.
           </p>
           <p className="mb-6">
             For guidance on cookie management, refer to your browser’s support documentation or privacy settings page.
@@ -62,7 +62,7 @@ const CookiePolicy = () => {
           <p className="mb-6">
             If you have questions about our cookie practices or privacy safeguards, contact us at:
             <br />
-            <strong>Email: hello@jamison.com</strong>
+            <strong>Email: hello@Clairo.com</strong>
           </p>
         </div>
       </main>

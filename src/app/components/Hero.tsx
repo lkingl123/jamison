@@ -68,7 +68,7 @@ const Hero = () => {
           for Healthcare
         </h1>
         <p className="text-lg md:text-[22px] text-gray-500 leading-relaxed tracking-tight">
-           Upload records, validate insurance info, and simplify patient intake with Jamison—an AI assistant built for modern medical teams.
+           Upload records, validate insurance info, and simplify patient intake with Clairo—an AI assistant built for modern medical teams.
         </p>
         <div className="flex flex-col md:flex-row justify-center lg:justify-start gap-4">
           <a
@@ -138,7 +138,7 @@ const Hero = () => {
                   rx="525"
                   ry="160"
                   style={{
-                    stroke: "#14B8A6",
+                    stroke: "#1a4d8f",
                     fill: "none",
                     strokeWidth: 3,
                     transform: `rotate(${angle}deg)`,
@@ -158,7 +158,7 @@ const Hero = () => {
                   rx="490"
                   ry="170"
                   style={{
-                    stroke: "#14B8A6",
+                    stroke: "#1a4d8f",
                     fill: "none",
                     strokeWidth: 4,
                     transform: `rotate(${angle}deg)`,

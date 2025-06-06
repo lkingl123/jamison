@@ -7,34 +7,34 @@ const FAQ = () => {
 
   const faqs = [
     {
-      question: "What is Jamison?",
+      question: "What is Clairo?",
       answer:
-        "Jamison is an AI-powered medical intake assistant that helps healthcare staff process face sheet PDFs, extract critical data, and ensure insurance and billing readiness.",
+        "Clairo is an AI-powered medical intake assistant that helps healthcare staff process face sheet PDFs, extract critical data, and ensure insurance and billing readiness.",
     },
     {
-      question: "How does Jamison work?",
+      question: "How does Clairo work?",
       answer:
-        "Staff upload hospital face sheets to the Jamison platform. The system scans and extracts key fields like patient info, insurance numbers, and diagnosis codes. It then identifies missing or invalid information and helps resolve them through guided Q&A.",
+        "Staff upload hospital face sheets to the Clairo platform. The system scans and extracts key fields like patient info, insurance numbers, and diagnosis codes. It then identifies missing or invalid information and helps resolve them through guided Q&A.",
     },
     {
-      question: "Who is Jamison for?",
+      question: "Who is Clairo for?",
       answer:
-        "Jamison is designed for medical intake coordinators, billing staff, and case workers who manage hospital or clinic documentation and insurance processing.",
+        "Clairo is designed for medical intake coordinators, billing staff, and case workers who manage hospital or clinic documentation and insurance processing.",
     },
     {
-      question: "What problems does Jamison solve?",
+      question: "What problems does Clairo solve?",
       answer:
-        "Jamison reduces human errors in manual data entry, helps catch missing fields early, speeds up insurance processing, and improves compliance with funding workflows.",
+        "Clairo reduces human errors in manual data entry, helps catch missing fields early, speeds up insurance processing, and improves compliance with funding workflows.",
     },
     {
-      question: "Is Jamison HIPAA-compliant?",
+      question: "Is Clairo HIPAA-compliant?",
       answer:
-        "Yes, Jamison is designed with HIPAA best practices in mind. Data is processed securely and is only stored after user approval, with encryption and access controls in place.",
+        "Yes, Clairo is designed with HIPAA best practices in mind. Data is processed securely and is only stored after user approval, with encryption and access controls in place.",
     },
     {
-      question: "Do I need training to use Jamison?",
+      question: "Do I need training to use Clairo?",
       answer:
-        "No formal training is needed. Jamison is built with a simple, guided interface and includes a built-in AI assistant to help users through each intake record step-by-step.",
+        "No formal training is needed. Clairo is built with a simple, guided interface and includes a built-in AI assistant to help users through each intake record step-by-step.",
     },
   ];
 
@@ -47,7 +47,7 @@ const FAQ = () => {
       <div className="container mx-auto px-6 max-w-4xl">
         <h2 className="text-3xl font-bold text-center mb-4">Frequently Asked Questions</h2>
         <p className="text-center text-gray-600 mb-8">
-          Everything you need to know about using Jamison to process face sheets and assist with intake.
+          Everything you need to know about using Clairo to process face sheets and assist with intake.
         </p>
         <div className="space-y-4">
           {faqs.map((faq, index) => (

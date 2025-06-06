@@ -7,7 +7,7 @@ const PrivacyPolicy = () => {
         <h1 className="text-3xl font-bold text-center mb-8">Privacy Policy</h1>
 
         <p className="mb-6">
-          At <strong>Jamison</strong>, we are committed to protecting the privacy and security of your information, especially when dealing with sensitive patient data. This Privacy Policy explains how we collect, use, and protect information you provide when using the platform.
+          At <strong>Clairo</strong>, we are committed to protecting the privacy and security of your information, especially when dealing with sensitive patient data. This Privacy Policy explains how we collect, use, and protect information you provide when using the platform.
         </p>
 
         <h2 className="text-2xl font-semibold mt-8 mb-4">Information We Collect</h2>
@@ -39,7 +39,7 @@ const PrivacyPolicy = () => {
 
         <h2 className="text-2xl font-semibold mt-8 mb-4">PHI & HIPAA Considerations</h2>
         <p className="mb-6">
-          Jamison is built with HIPAA best practices in mind, including restricted access, encryption, and audit trails. However, final compliance with HIPAA regulations lies with the provider organization and how the platform is integrated into their workflows.
+          Clairo is built with HIPAA best practices in mind, including restricted access, encryption, and audit trails. However, final compliance with HIPAA regulations lies with the provider organization and how the platform is integrated into their workflows.
         </p>
 
         <h2 className="text-2xl font-semibold mt-8 mb-4">Information Sharing</h2>
@@ -61,7 +61,7 @@ const PrivacyPolicy = () => {
 
         <h2 className="text-2xl font-semibold mt-8 mb-4">Cookies</h2>
         <p className="mb-6">
-          Jamison uses cookies to manage session state and improve functionality. You may block cookies in your browser, but it may limit your ability to use the platform.
+          Clairo uses cookies to manage session state and improve functionality. You may block cookies in your browser, but it may limit your ability to use the platform.
         </p>
 
         <h2 className="text-2xl font-semibold mt-8 mb-4">Your Rights</h2>
@@ -74,12 +74,12 @@ const PrivacyPolicy = () => {
           <li>Limit how your data is processed in certain cases.</li>
         </ul>
         <p className="mb-6">
-          To exercise any of these rights, please email <strong>hello@jamison.com</strong>.
+          To exercise any of these rights, please email <strong>hello@Clairo.com</strong>.
         </p>
 
         <h2 className="text-2xl font-semibold mt-8 mb-4">Children’s Privacy</h2>
         <p className="mb-6">
-          Jamison is not intended for users under 13 years of age. We do not knowingly collect or process data from children without parental or organizational consent.
+          Clairo is not intended for users under 13 years of age. We do not knowingly collect or process data from children without parental or organizational consent.
         </p>
 
         <h2 className="text-2xl font-semibold mt-8 mb-4">Policy Updates</h2>
@@ -91,7 +91,7 @@ const PrivacyPolicy = () => {
         <p className="mb-6">
           For privacy-related inquiries or compliance support, contact us at:
           <br />
-          <strong>Email: hello@jamison.com</strong>
+          <strong>Email: hello@Clairo.com</strong>
         </p>
       </div>
     </main>

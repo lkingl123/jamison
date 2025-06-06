@@ -12,7 +12,7 @@ const FeatureSteps = () => {
             </div>
             <h3 className="text-xl font-semibold mb-4">Upload a Face Sheet</h3>
             <p className="text-m text-gray-400">
-              Start by uploading a patient’s hospital intake PDF. Jamison will scan and extract key fields like name, DOB, insurance, and diagnosis.
+              Start by uploading a patient’s hospital intake PDF. Clairo will scan and extract key fields like name, DOB, insurance, and diagnosis.
             </p>
             <div className="text-5xl mt-4 flex justify-center items-center font-bold text-gray-500">
               1
@@ -26,7 +26,7 @@ const FeatureSteps = () => {
             </div>
             <h3 className="text-xl font-semibold mb-4">Answer Smart Questions</h3>
             <p className="text-m text-gray-400">
-              Jamison highlights missing or questionable info and asks for clarification — like missing insurance IDs, dates, or unclear notes.
+              Clairo highlights missing or questionable info and asks for clarification — like missing insurance IDs, dates, or unclear notes.
             </p>
             <div className="text-5xl mt-4 flex justify-center items-center font-bold text-gray-500">
               2

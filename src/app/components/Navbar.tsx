@@ -18,10 +18,10 @@ const Navbar = () => {
         {/* Logo Icon */}
         <div className="flex items-center">
           <div className="bg-customIndigo w-8 h-8 flex items-center justify-center rounded-full mr-2">
-            <span className="text-white font-bold text-lg">J</span>
+            <span className="text-white font-bold text-lg">C</span>
           </div>
           <Link href="/" className="text-2xl font-bold text-black">
-            Jamison
+            Clairo
           </Link>
         </div>
         {/* Menu Links */}

@@ -8,7 +8,7 @@ const ChatBot = () => {
     {
       role: "bot",
       content:
-        "👋 Hi, I'm Jamison. I'm here to help you review and complete medical intake information. How would you like to start?",
+        "👋 Hi, I'm Clairo. I'm here to help you review and complete medical intake information. How would you like to start?",
     },
   ]);
 
