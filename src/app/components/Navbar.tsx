@@ -27,7 +27,7 @@ const Navbar = () => {
         {/* Menu Links */}
         <div className="hidden lg:flex space-x-8 text-black">
           <Link
-            href="/"
+            href="#how-it-works"
             className="px-4 py-2 font-semibold text-customIndigo hover:bg-gray-100 rounded-md"
           >
             How it works
