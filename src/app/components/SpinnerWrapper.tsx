@@ -23,7 +23,7 @@ export default function SpinnerWrapper({
   if (loading) {
     // Show spinner only when loading
     return (
-      <div className="fixed inset-0 bg-white z-50 flex items-center justify-center">
+      <div className="fixed inset-0 bg-white z-[9999] flex items-center justify-center">
         <div className="loader">
           <div className="dot"></div>
           <div className="dot"></div>

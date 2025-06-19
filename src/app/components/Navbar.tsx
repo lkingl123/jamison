@@ -5,10 +5,10 @@ import Link from "next/link";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false); // Menu toggle state
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen); // Toggle menu visibility
+    setIsMenuOpen(!isMenuOpen);
   };
 
   return (
@@ -24,6 +24,7 @@ const Navbar = () => {
             Clairo
           </Link>
         </div>
+
         {/* Menu Links */}
         <div className="hidden lg:flex space-x-8 text-black">
           <Link
@@ -56,16 +57,16 @@ const Navbar = () => {
         )}
       </div>
 
-      {/* Right Section: Buttons */}
+      {/* Right Section: Desktop Buttons */}
       <div className="hidden lg:flex space-x-6">
         <Link
-          href="/login"
+          href="/auth/signin"
           className="bg-gray-200 text-black px-6 py-3 rounded-md hover:bg-gray-300 text-lg font-medium"
         >
           Sign in
         </Link>
         <Link
-          href="/signup"
+          href="/auth/signup"
           className="bg-black text-white text-lg font-medium px-6 py-3 rounded-md hover:bg-customBlue transition"
         >
           Sign Up
@@ -78,36 +79,36 @@ const Navbar = () => {
           {/* <Link
             href="/"
             className="block text-lg text-black bg-gray-100 py-3 px-4 hover:text-customBlue hover:bg-gray-100 rounded-md"
-            onClick={toggleMenu} // Close the menu after clicking
+            onClick={toggleMenu}
           >
             How it works
           </Link> */}
           {/* <Link
             href="/pricing"
             className="block text-lg text-black py-3 px-4 hover:text-customIndigo hover:bg-gray-100 rounded-md"
-            onClick={toggleMenu} // Close the menu after clicking
+            onClick={toggleMenu}
           >
             Pricing
           </Link>
           <Link
             href="/api"
             className="block text-lg text-black py-3 px-4 hover:text-customIndigo hover:bg-gray-100 rounded-md"
-            onClick={toggleMenu} // Close the menu after clicking
+            onClick={toggleMenu}
           >
             API
           </Link> */}
           <div className="mt-6 space-y-4">
             <Link
-              href="/login"
+              href="/auth/signin"
               className="block text-lg text-black bg-gray-300 py-2 px-4 hover:bg-gray-500 rounded-md"
-              onClick={toggleMenu} // Close the menu after clicking
+              onClick={toggleMenu}
             >
               Sign in
             </Link>
             <Link
-              href="/create-chatbot"
+              href="/auth/signup"
               className="block text-lg text-white bg-black py-3 px-4 rounded-md hover:bg-customBlue transition"
-              onClick={toggleMenu} // Close the menu after clicking
+              onClick={toggleMenu}
             >
               Sign Up
             </Link>
