@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { signInWithEmailAndPassword } from 'firebase/auth';
+import { signInWithEmailAndPassword, signOut } from 'firebase/auth';
 import { auth } from '../../firebaseConfig';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
@@ -15,8 +15,17 @@ export default function SignInPage() {
   const handleSignIn = async (e: React.FormEvent) => {
     e.preventDefault();
     setError('');
+
     try {
-      await signInWithEmailAndPassword(auth, email, password);
+      const userCredential = await signInWithEmailAndPassword(auth, email, password);
+      const user = userCredential.user;
+
+      if (!user.emailVerified) {
+        await signOut(auth);
+        setError('Please verify your email before signing in.');
+        return;
+      }
+
       router.push('/dashboard');
     } catch (err: any) {
       setError(err.message || 'Login failed');
@@ -24,7 +33,7 @@ export default function SignInPage() {
   };
 
   return (
-    <main className="min-h-[80vh] flex items-center justify-center bg-gray-100">
+    <main className="min-h-screen flex items-center justify-center bg-gray-100">
       <form onSubmit={handleSignIn} className="bg-white p-8 rounded shadow-md w-full max-w-md">
         <h2 className="text-2xl mb-4 font-bold text-center">Sign In to Clairo</h2>
 

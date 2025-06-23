@@ -24,23 +24,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="vsc-initialized flex flex-col min-h-screen">
-        <FirebaseAuthProvider>
-          <NotificationBar />
-          <Navbar />
-
-          {/* Main Content */}
-          <div className="flex-grow">
-            <SpinnerWrapper>{children}</SpinnerWrapper>
-          </div>
-
-          <FAQ />
-          <div className="relative z-30">
-            <ChatBot />
-          </div>
-          <CookieBanner />
-          <Footer />
-        </FirebaseAuthProvider>
+      <body
+        className={`antialiased`}
+        suppressHydrationWarning // Suppresses hydration mismatch warning during development
+      >
+        {/* Wrap the application with AuthProvider */}
+        <SpinnerWrapper><FirebaseAuthProvider>{children}</FirebaseAuthProvider></SpinnerWrapper>
       </body>
     </html>
   );

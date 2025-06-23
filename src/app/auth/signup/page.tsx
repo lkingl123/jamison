@@ -10,23 +10,27 @@ export default function SignUpPage() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [message, setMessage] = useState('');
+  const [loading, setLoading] = useState(false);
   const router = useRouter();
 
   const handleSignUp = async (e: React.FormEvent) => {
     e.preventDefault();
     setMessage('');
+    setLoading(true);
     try {
       const userCredential = await createUserWithEmailAndPassword(auth, email, password);
       await sendEmailVerification(userCredential.user);
-      setMessage('Verification email sent. Please check your inbox.');
+      setMessage('✅ Verification email sent. Please check your inbox.');
       setTimeout(() => router.push('/auth/signin'), 3000);
     } catch (err: any) {
       setMessage(err.message || 'Sign up failed');
+    } finally {
+      setLoading(false);
     }
   };
 
   return (
-    <main className="min-h-[80vh] flex items-center justify-center bg-gray-100">
+    <main className="min-h-screen flex items-center justify-center bg-gray-100">
       <form onSubmit={handleSignUp} className="bg-white p-8 rounded shadow-md w-full max-w-md">
         <h2 className="text-2xl mb-4 font-bold text-center">Create Your Clairo Account</h2>
 
@@ -50,9 +54,10 @@ export default function SignUpPage() {
 
         <button
           type="submit"
-          className="w-full bg-black text-white p-3 rounded hover:bg-customBlue transition"
+          className={`w-full p-3 rounded text-white transition ${loading ? 'bg-gray-400' : 'bg-black hover:bg-customBlue'}`}
+          disabled={loading}
         >
-          Sign Up
+          {loading ? 'Sending...' : 'Sign Up'}
         </button>
 
         {message && <p className="mt-4 text-sm text-blue-600 text-center">{message}</p>}
